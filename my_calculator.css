@@ -1,0 +1,142 @@
+body {
+  background-color: #000000;
+}
+#equals{
+  background-color:#99ebff;
+}
+#equals:hover{
+  background-color:#5f9ea0 ;
+  box-shadow: 0 4px #008fb3;
+  
+}
+#decimal{
+  background-color:#cee9ea;
+}
+#decimal:hover{
+  background-color:#5F9EA0 ;
+  box-shadow: 0 4px #b0d2cf;
+}
+#ac {
+  background-color: #ff9fa8;
+}
+#ac:hover {
+  background-color: #f297a0;
+  box-shadow: 0 4px #cc7f86;
+}
+#del{
+  background-color: #eee8aa;
+}
+#del:hover{
+  background-color: #fff0f5;
+  box-shadow: 0 4px #cc7f86
+}
+#display {
+  width: 265px;
+  font-size: 26px;
+  text-align: right;
+  background-color:#b0c4de;
+  float: left;
+}
+
+#display:hover {
+  width: 270px;
+  font-size: 26px;
+  text-align: right;
+  background-color: #ffefd5;
+  box-shadow: 0 4px #808000;
+}
+
+#display:active {
+  font-size: 26px;
+  text-align: right;
+  top: 5px;
+  width: 270px;
+  background-color: #bcbd95;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+.num{
+  background-color: #cee9ea;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.num:hover {
+  background-color:#5f9ea0 ;
+  box-shadow: 0 4px #b0d2cf;
+}
+.num:active{
+  top: 4px;
+  background-color:#5f9ea0 ;
+  box-shadow: none;
+}
+.operator {
+  background-color:#d8bfd8 ;
+  position: relative;
+}
+
+.operator:hover {
+  background-color:#ff99e6;
+  box-shadow: 0 4px #ff8080;
+}
+
+.operator:active {
+  top: 4px;
+  background-color:#ff99e6;
+  box-shadow: none;
+}
+
+table {
+  background-color: #2f4f4f;
+  width: 295px;
+  height: 325px;
+  text-align: center;
+  border-radius: 4px;
+  padding-right: 10px;
+  margin: auto;
+}
+
+input {
+  outline: 0;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border: 0;
+  color: #495069;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px rgba(0,0,0,0.3);
+  margin-bottom: 15px;
+}
+input:hover {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px #b0d2cf;
+  border: 0 solid #000;
+  color: #495069;
+}
+
+input:active {
+  top: 4px;
+  background-color: #7fffd4;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: none;
+  border: 0 solid #7fffd4;
+  color: #495069;
+}
+
